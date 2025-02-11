@@ -13,6 +13,7 @@ namespace Berger.Extensions.Jwt
         public string Scope { get; set; }
         public string AccessToken { get; set; }
         public string RefreshToken { get; set; }
+        public string Description { get; set; }
         public DateTime ExpiresOn { get; set; }
     }
 }
