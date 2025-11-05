@@ -15,6 +15,6 @@ namespace Berger.Extensions.Jwt
         public string RefreshToken { get; set; }
         public string Description { get; set; }
         public string Environment { get; set; }
-        public DateTime ExpiresOn { get; set; }
+        public DateTime Expiration { get; set; }
     }
 }
